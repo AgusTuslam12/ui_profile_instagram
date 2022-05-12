@@ -30,7 +30,7 @@ class ProfilePicture extends StatelessWidget {
           color: Colors.white,
           image: DecorationImage(
             image:
-                NetworkImage("https://randomuser.me/api/portraits/men/73.jpg"),
+                NetworkImage("https://randomuser.me/api/portraits/men/32.jpg"),
             fit: BoxFit.cover,
           ),
           border: Border.all(

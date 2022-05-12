@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_profile_instagram/theme.dart';
 
 class InfoProfile extends StatelessWidget {
   const InfoProfile(this.title, this.nilai);
@@ -10,8 +11,14 @@ class InfoProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(nilai),
-        Text(title),
+        Text(
+          nilai,
+          style: styleValue,
+        ),
+        Text(
+          title,
+          style: styleDefault,
+        ),
       ],
     );
   }
